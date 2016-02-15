@@ -1,0 +1,48 @@
+#container{ margin-left: 100px;
+            margin-right: 100px;
+}
+body {background-color: #64a06d
+}
+h1{color: #f0b380;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px #2c515e;
+
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    color: #eaf098;
+    font-size: 30px;
+    background: #2c515e;
+    box-shadow: 6px 6px 6px #f9fbfc;
+    padding: 8px;
+    border-radius: 0 5px;
+    display:inline-block;
+    margin-right: 4px;
+    margin-left: 4px
+
+}
+ul#menu li {
+    position: relative;
+    font-size: medium;
+    padding-bottom: 2px;
+
+}
+
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 130px;
+}
+ul#menu li:hover ul.sub-menu {
+    display:block;
+}
